@@ -1,0 +1,56 @@
+body { 
+    background-color: white;
+    color: black;
+    font-family: Helvetica;
+    margin: 0px;
+}
+
+header {
+    background-color:blue;
+    width: auto;
+    z-index: 1;
+    color: #ffc107;
+    padding: 20px;
+    font-size: 40pt;
+    text-align: left;
+}
+.navigation {
+    height: 1000px;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ffc107;
+    overflow-x: hidden;
+    padding-top: 100px;
+    font-family: Helvetica;
+}
+.navigation a {
+    text-decoration: none;
+    font-size: 25px;
+    color:blue;
+    display: block;
+    margin-top: 10px;
+}
+.navigation a:hover {
+    color: orangered;
+    text-shadow: 2px 2px 2px;
+}
+.text {
+    color: black;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 20px;
+    height: 1000px;
+    width: 1300px;
+    text-align: justify;
+    margin-left: 30px;
+}
+.image {
+    height: 200px;
+    width: 400px;
+}
+.figcaption_image {
+    color: gray;
+    margin-top: -10px;
+    margin-left: 0px;
+}

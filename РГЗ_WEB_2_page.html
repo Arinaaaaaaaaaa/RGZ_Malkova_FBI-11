@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лента - сеть магазинов с доставкой товаров на дом</title>
+    <link rel="stylesheet" href="main_rgz.css">
+    <script src="rgz.js"></script>
+</head>
+
+<body onload="table_stock()" style="height: 1250px;">
+    <header>
+        <div style="display: flex; margin-top: 10px; margin-left: 20px;">
+            <div>ЛЕНТА</div>
+            <img src="lenta_30years__-1.png" style="height: 50px; width: 100px; margin-top: 10px; margin-left: 30px;">
+        </div>
+    </header>
+
+    <main>
+        <div class="navigation">
+            <a href="index.html">О компании</a>
+            <a href="РГЗ_WEB_2_page.html"style="color:blueviolet">Основные финансовые показатели</a>
+            <a href="РГЗ_WEB_3_page.html">Контактные данные</a>
+            <a href="РГЗ_WEB_4_page.html">Видео</a>
+        </div>
+
+        <div class="text">
+            <h1 style="text-align: center;">Основные финансовые показатели</h1>
+
+            <h2>Капитализация</h2>
+            <div>
+                Капитализация МКПАО Лента для обыкновенных акций составила 83 045.40 млн RUB
+            </div>
+
+            <h2>Общее число акций</h2>
+            <div>
+                Общее число акций МКПАО Лента для обыкновенных акций (RU000A102S15, LENT) составило 115.99 млн штук
+            </div>
+
+            <h2>Цены закрытия на апрель</h2>
+            <div>
+            <table border="3" id="stock" style="color: blue; width: 20%; text-align: center;"></table>
+            </div>
+
+            <h2>Остальные финансовые показатели за апрель 2023</h2> 
+            <div id="lenta_min"></div>
+            <div id="lenta_max"></div> 
+            <div id="lenta_variance"></div> 
+        </div>
+
+    </main>
+</body>
+</html>
